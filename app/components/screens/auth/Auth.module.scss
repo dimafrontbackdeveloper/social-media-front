@@ -1,0 +1,19 @@
+.form {
+	margin: 6rem auto 0;
+	max-width: 30%;
+
+	> div {
+		> button {
+			display: inline-flex;
+
+			> span:first-child {
+				display: block !important;
+				width: 25px !important;
+			}
+
+			> span:last-child {
+				margin-left: 12px;
+			}
+		}
+	}
+}

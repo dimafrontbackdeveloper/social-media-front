@@ -1,0 +1,10 @@
+.card {
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	margin: 0 15px;
+
+	@media (max-width: 1199px) {
+		width: 200px;
+	}
+}

@@ -1,0 +1,10 @@
+.file {
+	> label {
+		display: block;
+		cursor: pointer;
+
+		> input {
+			display: none !important;
+		}
+	}
+}

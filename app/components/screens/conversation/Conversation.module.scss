@@ -1,0 +1,30 @@
+.item {
+	position: relative;
+}
+
+.message {
+	max-width: 20%;
+
+	@media (max-width: 1260px) {
+		max-width: 100%;
+	}
+
+	> div:last-child {
+		background-color: #f7f7f7;
+		border-radius: 0 5px 5px 5px;
+		padding: 0.7rem;
+	}
+
+	&.current {
+		> div:first-child {
+			margin-right: 0;
+			margin-left: 16px;
+			order: 2;
+		}
+
+		> div:last-child {
+			border-radius: 5px 0 5px 5px;
+			background-color: #eaf4ff;
+		}
+	}
+}

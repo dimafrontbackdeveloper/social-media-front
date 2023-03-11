@@ -1,0 +1,30 @@
+.close {
+	position: absolute;
+	top: 25px;
+	right: 15px;
+	width: 30px;
+	height: 25px;
+	display: none;
+
+	@media (max-width: 1199px) {
+		display: block;
+	}
+
+	div {
+		width: 100%;
+		position: absolute;
+		background: #000;
+
+		top: 50%;
+		transform: translateY(-50%);
+		height: 3px;
+
+		&:nth-child(1) {
+			transform: rotate(45deg);
+		}
+
+		&:nth-child(2) {
+			transform: rotate(-45deg);
+		}
+	}
+}
